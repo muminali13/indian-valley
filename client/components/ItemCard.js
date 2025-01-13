@@ -6,9 +6,8 @@ import { useRouter} from "expo-router";
 export default function ItemCard({ item }) {
     const navigation = useRouter();
     return (
-        <TouchableWithoutFeedback onPress={() => navigation.navigate(item.navTo, {...item})}>
-            <View style={
-                    {
+        <TouchableWithoutFeedback onPress={() => navigation.navigate(item.navTo)}>
+            <View style={{
                         shadowColor: themeColors.bgColor(0.3),
                         shadowRadius: 7
                     }}

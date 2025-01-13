@@ -148,15 +148,15 @@ export const menu = [
         category: "Appetisers",
         dishes: [
             {
-                id: 1,
+                id: 4,
                 name: "Mix Kebab",
                 price: 4.95
             }, {
-                id: 2,
+                id: 5,
                 name: "Onion Bhajee",
                 price: 4.95
             },{
-                id: 3,
+                id: 6,
                 name: "Lamb Samosa",
                 price: 4.95
             },
@@ -166,15 +166,15 @@ export const menu = [
         category: "Chef's Recommended",
         dishes: [
             {
-                id: 1,
+                id: 7,
                 name: "Butter Chicken",
                 price: 9.95
             }, {
-                id: 2,
+                id: 8,
                 name: "Naga Chicken",
                 price: 9.95
             },{
-                id: 3,
+                id: 9,
                 name: "Bengal Roast Chicken",
                 price: 9.95
             },
@@ -184,15 +184,15 @@ export const menu = [
         category: "Our Specials",
         dishes: [
             {
-                id: 1,
+                id: 10,
                 name: "King Prawn Joydha",
                 price: 9.95
             }, {
-                id: 2,
+                id: 11,
                 name: "Hariyali Chicken",
                 price: 9.95
             },{
-                id: 3,
+                id: 12,
                 name: "Hariyali Lamb",
                 price: 9.95
             },
@@ -202,7 +202,7 @@ export const menu = [
         category: "Tandoori Dishes",
         dishes: [
             {
-                id: 1,
+                id: 13,
                 name: "King Prawn",
                 price: 9.95
             }
@@ -212,7 +212,7 @@ export const menu = [
         category: "Balti Dishes",
         dishes: [
             {
-                id: 1,
+                id: 14,
                 name: "King Prawn Balti",
                 price: 9.95
             }
@@ -222,7 +222,7 @@ export const menu = [
         category: "Traditional Dishes",
         dishes: [
             {
-                id: 1,
+                id: 15,
                 name: "King Prawn Curry",
                 price: 9.95
             }
@@ -232,7 +232,7 @@ export const menu = [
         category: "Vegetable Main Dishes",
         dishes: [
             {
-                id: 1,
+                id: 16,
                 name: "Vegetable Curry",
                 price: 9.95
             }
@@ -242,7 +242,7 @@ export const menu = [
         category: "Vegetable Side Dishes",
         dishes: [
             {
-                id: 1,
+                id: 17,
                 name: "Bombay Aloo",
                 price: 9.95
             }
@@ -252,7 +252,7 @@ export const menu = [
         category: "English Dishes",
         dishes: [
             {
-                id: 1,
+                id: 18,
                 name: "Fish and Chips",
                 price: 9.95
             }
@@ -262,7 +262,7 @@ export const menu = [
         category: "Curry Sauces",
         dishes: [
             {
-                id: 1,
+                id: 19,
                 name: "Masala Sauce",
                 price: 9.95
             }
@@ -272,7 +272,7 @@ export const menu = [
         category: "Rice",
         dishes: [
             {
-                id: 1,
+                id: 20,
                 name: "Mushroom Rice",
                 price: 9.95
             }
@@ -282,7 +282,7 @@ export const menu = [
         category: "Naan Breads",
         dishes: [
             {
-                id: 1,
+                id: 21,
                 name: "Plain Naan",
                 price: 9.95
             }
@@ -292,7 +292,7 @@ export const menu = [
         category: "Set Meals",
         dishes: [
             {
-                id: 1,
+                id: 22,
                 name: "Set Meal for One",
                 price: 9.95
             }
@@ -302,7 +302,7 @@ export const menu = [
         category: "Drinks",
         dishes: [
             {
-                id: 1,
+                id: 23,
                 name: "Cola",
                 price: 9.95
             }

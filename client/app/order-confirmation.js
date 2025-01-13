@@ -1,19 +1,25 @@
 import {View, Text, StyleSheet, SafeAreaView, ScrollView, Image, TouchableOpacity} from 'react-native';
 import React, {useEffect} from 'react'
-import {useRoute} from "@react-navigation/native";
 import * as Icon from "react-native-feather"
-import {themeColors} from "@/theme";
+import {themeColors} from "../theme";
 import { useRouter } from "expo-router";
 import MapView, {Marker} from "react-native-maps";
-import {location} from "@/constants"
+import {location} from "../constants"
+import {useDispatch} from "react-redux";
+import {emptyCart} from "../slices/cartSlice";
 
 
 export default function OrderConfirmationScreen() {
     const navigation = useRouter();
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(emptyCart());
+    })
     return (
         <SafeAreaView className="flex-1 bg-white">
             <View className="relative py-4 shadow-sm">
-                <TouchableOpacity onPress={()=>{ navigation.dismissTo('/') }}
+                <TouchableOpacity onPress={()=>{ navigation.dismissTo('/home') }}
                                   style={{backgroundColor: themeColors.bgColor(1)}}
                                   className="z-10 absolute top-3 left-3 rounded-full p-1">
                     <Icon.ArrowLeft strokeWidth={3} stroke={'white'}></Icon.ArrowLeft>
